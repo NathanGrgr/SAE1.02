@@ -1,7 +1,18 @@
+/*
+ * Vote à classement (Borda)
+ * Chaque votant fait un classement des candidats
+ * 1er : 4 points
+ * 2e : 3 points
+ * 3e : 2 points
+ * 4e : 1 point
+ * [[1,4,3,2][...]...]
+ */
+
 #include <iostream>
 #include <vector>
 
 using namespace std;
+
 
 string litUneString (){
     string uneChaine;
@@ -11,8 +22,6 @@ string litUneString (){
     }
     return uneChaine;
 }
-
-
 
 
 vector<int> convertstrintovector(const string& chaine){
@@ -33,7 +42,7 @@ vector<int> convertstrintovector(const string& chaine){
 }
 
 
-vector<int> litClassement (){
+vector<int> litListe (){
     string uneChaine;
     vector<int> liste;
     while (true){
@@ -111,7 +120,7 @@ int main()
     for (unsigned i (0); i < votants; ++i){
         string nom (litUneString());
         string prenom  (litUneString());
-        vector<int> classement (litClassement());
+        vector<int> classement (litListe());
 
         vParticipant.push_back(participant{nom, prenom, classement});
 
@@ -121,7 +130,6 @@ int main()
     //affichVectParticipants(vParticipant);
     vector<vector<int>> classementParticipants;
 
-    // [[1,4,3,2][...]...]
     for (const auto& part : vParticipant) {
         classementParticipants.push_back(part.classement);
     }
@@ -129,6 +137,9 @@ int main()
 
     vector<int> listeelection;
     listeelection= election(classementParticipants,vCandidat);
+    for (size_t i (0); i < listeelection.size(); ++i){
+        cout << "Le candidat " << vCandidat[i] << " obtient " << listeelection[i] << " points" << endl;
+    }
     int max = listeelection[0];
     int max_indice = 0;
 
@@ -139,8 +150,7 @@ int main()
         }
     }
 
-    cout << "Le candidat " << max_indice +1 << " est élu avec " << max << " points sur un total de " << votants << " voies !" << endl;
+    cout << "Le candidat " << vCandidat[max_indice] << " est élu avec " << max << " points sur un total de " << votants << " voies !" << endl;
 
     return 0;
 }
-
