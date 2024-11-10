@@ -1,0 +1,356 @@
+// liste des glaces
+Choco
+Banane
+Mangue
+Fraises
+// voila la liste des joueurs
+// et encore un autre commentaire
+AROUSSI BENTATA
+Adam
+[1, 2]
+ACEMYAN DE OLIVEIRA
+Ewan
+[2, 3]
+ACH
+Sofia
+[3, 1]
+AGGAB
+Mohammed
+[4, 4]
+AHAMED
+Nasser
+[1, 1]
+ALLARD
+Loan
+[2, 4]
+AMARA
+Sinda
+[3, 3]
+AMROUNE
+Akim
+[4, 2]
+ANTOINE
+Thomas
+[1, 3]
+ARBADJI
+Maxime
+[2, 1]
+ARBOUZ
+Iklil
+[3, 2]
+ARFI
+Maxime
+[4, 4]
+ARSENA
+Claire
+[1, 2]
+ATHERLY
+Evan
+[2, 3]
+AZOUG
+Kylian
+[3, 1]
+BAGNIS
+Enzo
+[4, 2]
+BARBERIS
+Alexis
+[1, 4]
+BAURENS - TORRENTE
+Valentin
+[2, 2]
+BEN GADHA
+Imen
+[3, 3]
+BEN SALEM
+Mohamed
+[4, 1]
+BENAHMED
+Younes
+[1, 1]
+BENHAFESSA
+Alexandre
+[2, 4]
+BILLUART
+Florian
+[3, 2]
+BORSOTTO
+Antonin
+[4, 3]
+BOUACHERIA-KEBIR
+Imed
+[1, 1]
+BOUDHIB
+Mohamed-Amine
+[2, 4]
+BOUDIA--THOMAS
+Akcyl
+[3, 3]
+BOUGHERARA
+Adam
+[4, 2]
+BREST-LESTRADE
+Hugo
+[1, 4]
+BURBECK
+Heather
+[2, 1]
+CANTOR
+Romain
+[3, 2]
+CELESTINE
+Samuel
+[4, 3]
+CHETIOUI
+Willem
+[1, 1]
+CLOT-GODARD
+Kenji
+[2, 2]
+CONTRUCCI
+Lou
+[3, 3]
+CORDOVANA
+Enzo
+[4, 4]
+COULPOTIN
+Evan
+[1, 3]
+CRESPO - MICHAILIDIS
+Dimitri
+[2, 4]
+CURNIER
+Anthony
+[3, 1]
+DAHMOUCHE
+Wissem
+[4, 2]
+DAOUAYRY
+Sofian
+[1, 2]
+DARGENTOLLE
+Francois
+[2, 3]
+DECAMPS
+Lou
+[3, 1]
+DEMANGE
+Martin
+[4, 4]
+DIAZ
+Gwenn
+[1, 3]
+DRIOUCHI
+Mohamed
+[2, 2]
+DUMONT
+Aline
+[3, 4]
+EDELSTEIN
+William
+[4, 1]
+EL FAHSSI
+Hicham
+[1, 2]
+EL HABRIRI
+Samy
+[2, 1]
+EL KASSOUF
+Simon
+[3, 3]
+FABRE
+Alexis
+[4, 4]
+FALFERI
+Angelo
+[1, 3]
+FAUTSCH
+Mathis
+[2, 4]
+FERRAT
+Jibril
+[3, 1]
+FUSELIER
+Jules
+[4, 2]
+GHEUX
+Theo
+[1, 1]
+GIUSIANO
+Eloise
+[2, 3]
+GRIGUER
+Nathan
+[3, 2]
+GUDENSCHWAGER
+Oliver
+[4, 4]
+GUL
+Furkan
+[1, 4]
+GUZELBABA
+Imran
+[2, 2]
+HADDAD
+Mohamed-Amine
+[3, 3]
+HELALI
+Amin
+[4, 1]
+HENG
+Hugo
+[1, 2]
+HERNANDEZ
+Loic
+[2, 3]
+HU
+Swan
+[3, 4]
+JACOB
+Alexandre
+[4, 4]
+KAMARA
+Demba
+[1, 1]
+KAMARZINE
+Aurelien
+[2, 2]
+KOLIAI
+Hamza
+[3, 3]
+KUROPATWA-BUTTE
+Adam
+[4, 4]
+LACORRE
+Axel
+[1, 3]
+LAURIOL-TORCQ
+Mathis
+[2, 1]
+LE DENMAT
+Pierre
+[3, 2]
+LEPAPE
+Lucas
+[4, 4]
+MAILHE
+Gustin
+[1, 2]
+MARCHITTO
+Ilian
+[2, 3]
+MARCUS
+William
+[3, 1]
+MEFTAHI
+Mohamed
+[4, 4]
+MEGNOUCHE
+Riad
+[1, 2]
+MEJEAN
+Oriane
+[2, 1]
+MEKIDICHE
+Idris
+[3, 4]
+NAHI
+Amine
+[4, 3]
+NEIRA
+Leandro
+[1, 2]
+NEPOTU
+Gheorghe
+[2, 4]
+NGOM
+Magueye
+[3, 1]
+NOIRET
+Maxime
+[4, 2]
+ORLANDI
+Lenny
+[1, 3]
+PANAIVA
+Jeremy
+[2, 4]
+PALOT
+Thomas
+[3, 2]
+PIBOULEAU
+Jean-Baptiste
+[4, 4]
+POGHOSSIAN
+Mariam
+[1, 3]
+QUILLIEC
+Matisse
+[2, 1]
+RADJOU
+Dinesh
+[3, 2]
+RAPANAKIS-BOURG
+Marius
+[4, 3]
+RATIANANAHARY
+Karmen
+[1, 1]
+REGNIER
+Vassili
+[2, 4]
+RIBBE
+Jules
+[3, 3]
+RINALDI
+Antoine
+[4, 4]
+RIVA KARAKA ABDEREMANE
+Imric
+[1, 1]
+ROFFIDAL
+Ambre
+[2, 3]
+ROMBI
+Matis
+[3, 4]
+SAADI
+Ismail
+[4, 2]
+SANTOS JORGE
+Francisco
+[1, 1]
+SENE
+Pablo
+[2, 2]
+SISE
+Aboubakar
+[3, 4]
+STEFANOVITCH
+Ilann
+[4, 3]
+TAHA CHAOUI
+Amir
+[1, 4]
+TORCHIN
+Maxence
+[2, 1]
+TORO
+Esteban
+[3, 2]
+TRAIKIA
+Rayane
+[4, 4]
+UYSUN
+Ali
+[1, 3]
+VALETTE
+Lilian
+[2, 4]
+WATRIPONT
+Jeremy
+[3, 1]
+ZEGGANE
+Sofien
+[4, 2]
+
