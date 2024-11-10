@@ -1,9 +1,0 @@
-//Les candidats correspondes à 
-
-algorithme voteclassement
-
-debut
-    declarer scrutin : tableau_de entier;
-    declarer votant : entier <- 1000;
-    
-fin
