@@ -96,6 +96,7 @@ vector<int> election(const vector<vector<int>>& classement, const vector<string>
     return votesCumules;
 }
 
+
 int main()
 {
     vector <string> vCandidat;
@@ -106,11 +107,12 @@ int main()
     //affichVectString (vCandidat);
 
     vector<participant> vParticipant;
-    size_t votants = 10;
-    for (unsigned i (0); i < votants; ++i){
-        string nom (litUneString());
-        string prenom  (litUneString());
-        vector<int> classement (litListe());
+    size_t votants = 116;
+    for (size_t i (0); i < votants; ++i){
+        string nom =litUneString();
+        string prenom =litUneString();
+        vector<int> classement=litListe();
+        //affichVectInt(classement);
         vParticipant.push_back(participant{nom, prenom, classement});
     }
 
