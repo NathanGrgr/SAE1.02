@@ -80,12 +80,58 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
     }
     size_t i = 0;
     while (i< votesPremierePosition.size()-1){
-        votesPremierePosition[i]=votesPremierePosition[i]*(4-i);
+        votesPremierePosition[i]=votesPremierePosition[i]*4;
         i++;
     }
-    //affichVectInt(votesPremierePosition);
-    return votesPremierePosition;
+
+    vector<int> votesDeuxiemePosition(vCandidat.size(),0);
+
+    for (const auto & i : classement){
+        int deuxiemecandidat = i[1] - 1;
+        votesDeuxiemePosition[deuxiemecandidat]++;
+        //affichVectInt(votesDeuxiemePosition);
+    }
+    i = 0;
+    while (i< votesDeuxiemePosition.size()-1){
+        votesDeuxiemePosition[i]=votesDeuxiemePosition[i]*3;
+        ++i;
+    }
+
+    vector<int> votesTroisiemePosition(vCandidat.size(),0);
+
+    for (const auto& i : classement){
+        int troisiemecandidat = i [2]-1;
+        votesTroisiemePosition[troisiemecandidat]++;
+        //affichVectInt(votesTroisiemePosition);
+    }
+    i=0;
+    while ( i < votesTroisiemePosition.size()-1){
+        votesTroisiemePosition[i]=votesTroisiemePosition[i]*2;
+        ++i;
+    }
+
+    vector<int> votesQuatriemePosition(vCandidat.size(),0);
+
+    for (const auto & i : classement){
+        int quatriemecandidat = i[3]-1;
+        votesQuatriemePosition[quatriemecandidat]++;
+        //affichVectInt(votesQuatriemePosition);
+    }
+
+    affichVectInt(votesPremierePosition);
+    affichVectInt(votesDeuxiemePosition);
+    affichVectInt(votesTroisiemePosition);
+    affichVectInt(votesQuatriemePosition);
+
+
+    vector<int> votesBorda(vCandidat.size(),0);
+    for (size_t i(0); i<4; ++i){
+        votesBorda[i]=votesPremierePosition[i]+votesDeuxiemePosition[i]+votesTroisiemePosition[i]+votesQuatriemePosition[i];
+    }
+
+    return votesBorda;
 }
+
 
 
 struct participant {
