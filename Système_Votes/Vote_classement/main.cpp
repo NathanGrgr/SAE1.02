@@ -76,14 +76,14 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
     for (const auto & i : classement) {
         int premiercandidat = i[0] - 1;
         votesPremierePosition[premiercandidat]++;
-        affichVectInt(votesPremierePosition);
+        //affichVectInt(votesPremierePosition);
     }
     size_t i = 0;
     while (i< votesPremierePosition.size()-1){
         votesPremierePosition[i]=votesPremierePosition[i]*(4-i);
         i++;
     }
-    affichVectInt(votesPremierePosition);
+    //affichVectInt(votesPremierePosition);
     return votesPremierePosition;
 }
 
@@ -113,7 +113,7 @@ int main()
     for (unsigned i (0); i < nbrCandidat; ++i)
         vCandidat.push_back(litUneString());
 
-    affichVectString (vCandidat);
+    //affichVectString (vCandidat);
 
     vector<participant> vParticipant;
     size_t votants = 10;
@@ -124,7 +124,7 @@ int main()
 
         vParticipant.push_back(participant{nom, prenom, classement});
 
-        affichVectInt(classement);
+        //affichVectInt(classement);
     }
 
     //affichVectParticipants(vParticipant);
