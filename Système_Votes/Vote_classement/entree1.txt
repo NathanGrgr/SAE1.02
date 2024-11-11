@@ -1,8 +1,8 @@
-// liste des glaces Banane
-Mangue
-Fraises
+//liste des glaces
 Choco
 Banane
+Mangue
+Fraises
 // voila la liste des joueurs
 // et encore un autre commentaire
 AROUSSI BENTATA
