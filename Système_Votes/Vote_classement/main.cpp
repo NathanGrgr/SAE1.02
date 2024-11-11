@@ -162,7 +162,7 @@ int main()
     //affichVectString (vCandidat);
 
     vector<participant> vParticipant;
-    size_t votants = 10;
+    size_t votants = 116;
     for (unsigned i (0); i < votants; ++i){
         string nom (litUneString());
         string prenom  (litUneString());
