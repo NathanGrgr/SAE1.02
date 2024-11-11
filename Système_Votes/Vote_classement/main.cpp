@@ -118,10 +118,10 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
         //affichVectInt(votesQuatriemePosition);
     }
 
-    affichVectInt(votesPremierePosition);
-    affichVectInt(votesDeuxiemePosition);
-    affichVectInt(votesTroisiemePosition);
-    affichVectInt(votesQuatriemePosition);
+    // affichVectInt(votesPremierePosition);
+    // affichVectInt(votesDeuxiemePosition);
+    // affichVectInt(votesTroisiemePosition);
+    // affichVectInt(votesQuatriemePosition);
 
 
     vector<int> votesBorda(vCandidat.size(),0);
