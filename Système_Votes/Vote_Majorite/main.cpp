@@ -141,7 +141,7 @@ int main()
 
     vector<participant> vParticipant;
 
-    unsigned votants = 10;
+    unsigned votants = 116;
     for (unsigned i (0); i < votants; ++i){
         string nom (litUneString());
         string prenom  (litUneString());
@@ -176,26 +176,23 @@ int main()
         cout << "Aucun candidat n'a gagné à la majorité" << endl;
         cout << "Debut du 2e tour : " << endl;
         listeelection=election2etour(classementParticipants);
-        //affichVectInt(listeelection);
-        int max = listeelection[0];
+
 
 
         for (size_t i = 0; i < listeelection.size(); ++i){
             cout << "Le candidat " << vCandidat[i] << " a obtenu " << listeelection[i] << " votes" << endl;
         }
 
-
-        for (size_t i = 1; i < listeelection.size(); ++i) {
-
-
-            if (listeelection[i] > max) {
-
-                max = listeelection[i];
-                max_indice = i;
+        //affichVectInt(listeelection);
+        int max = listeelection[0];
+        for (int j(0); j < listeelection.size(); ++j){
+            if (max < listeelection[j]){
+                max=listeelection[j];
+                max_indice=j;
             }
+        }
         cout << "Le candidat " << vCandidat[max_indice] << " est élu avec " << max << " voies au 2er tour sur un total de " << votants << " voies !" << endl;
         return 0;
         }
 
     }
-}
