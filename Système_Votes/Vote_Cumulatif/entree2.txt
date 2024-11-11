@@ -1,356 +1,356 @@
-// liste des glaces
+//liste des glaces
+Mangue
 Choco
 Banane
-Mangue
 Fraises
 // voila la liste des joueurs
 // et encore un autre commentaire
 AROUSSI BENTATA
 Adam
-[3, 0, 7, 0]
+[4, 2, 3, 1]
 ACEMYAN DE OLIVEIRA
 Ewan
-[2, 5, 1, 2]
+[3, 1, 5, 1]
 ACH                     
 Sofia
-[6, 0, 4, 0]
+[2, 2, 4, 2]
 AGGAB
 Mohammed
-[1, 9, 0, 0]
+[1, 7, 0, 2]
 AHAMED
 Nasser
-[3, 3, 4, 0]
+[5, 0, 4, 1]
 ALLARD
 Loan
-[0, 6, 2, 2]
+[6, 2, 1, 1]
 AMARA
 Sinda
-[5, 0, 0, 5]
+[3, 3, 3, 1]
 AMROUNE
 Akim
-[4, 1, 5, 0]
+[4, 4, 1, 1]
 ANTOINE
 Thomas
-[0, 4, 6, 0]
+[2, 3, 2, 3]
 ARBADJI
 Maxime
-[7, 2, 0, 1]
+[5, 3, 0, 2]
 ARBOUZ
 Iklil
-[3, 4, 1, 2]
+[2, 5, 2, 1]
 ARFI
 Maxime
-[2, 3, 2, 3]
+[6, 0, 4, 0]
 ARSENA
 Claire
-[0, 6, 4, 0]
+[1, 3, 5, 1]
 ATHERLY
 Evan
-[5, 0, 3, 2]
+[3, 3, 1, 3]
 AZOUG
 Kylian
-[6, 1, 0, 3]
+[4, 1, 2, 3]
 BAGNIS
 Enzo
-[4, 2, 2, 2]
+[0, 7, 2, 1]
 BARBERIS
 Alexis
-[8, 0, 0, 2]
+[3, 5, 1, 1]
 BAURENS - TORRENTE
 Valentin
-[3, 1, 3, 3]
+[4, 0, 3, 3]
 BEN GADHA
 Imen
-[2, 4, 4, 0]
+[1, 8, 1, 0]
 BEN SALEM
 Mohamed
-[5, 5, 0, 0]
+[2, 5, 3, 0]
 BENAHMED
 Younes
-[2, 3, 5, 0]
+[3, 0, 4, 3]
 BENHAFESSA
 Alexandre
-[6, 0, 2, 2]
+[1, 4, 3, 2]
 BILLUART
 Florian
-[3, 0, 7, 0]
+[6, 2, 0, 2]
 BORSOTTO
 Antonin
-[1, 8, 0, 1]
+[3, 2, 4, 1]
 BOUACHERIA-KEBIR
 Imed
-[0, 3, 6, 1]
+[0, 8, 1, 1]
 BOUDHIB          
 Mohamed-Amine
-[4, 2, 4, 0]
+[2, 4, 3, 1]
 BOUDIA--THOMAS
 Akcyl
-[2, 2, 1, 5]
+[5, 1, 3, 1]
 BOUGHERARA
 Adam
-[5, 1, 0, 4]
+[1, 2, 6, 1]
 BREST-LESTRADE
 Hugo
-[3, 4, 0, 3]
+[4, 3, 3, 0]
 BURBECK
 Heather
-[4, 5, 0, 1]
+[5, 2, 1, 2]
 CANTOR
 Romain
 [2, 3, 4, 1]
 CELESTINE
 Samuel
-[6, 1, 3, 0]
+[3, 3, 2, 2]
 CHETIOUI
 Willem
-[3, 7, 0, 0]
+[1, 7, 2, 0]
 CLOT-GODARD
 Kenji
-[1, 5, 2, 2]
+[2, 5, 1, 2]
 CONTRUCCI     
 Lou
-[4, 4, 0, 2]
+[4, 2, 4, 0]
 CORDOVANA     
 Enzo
-[2, 1, 5, 2]
+[3, 5, 1, 1]
 COULPOTIN
 Evan
-[3, 2, 3, 2]
+[0, 4, 5, 1]
 CRESPO - MICHAILIDIS
 Dimitri
-[4, 1, 4, 1]
+[2, 4, 3, 1]
 CURNIER
 Anthony
-[2, 3, 2, 3]
+[1, 6, 0, 3]
 DAHMOUCHE
 Wissem
-[5, 0, 3, 2]
+[4, 2, 3, 1]
 DAOUAYRY
 Sofian
-[6, 4, 0, 0]
+[5, 0, 4, 1]
 DARGENTOLLE
 Francois
-[1, 3, 5, 1]
+[1, 5, 2, 2]
 DECAMPS
 Lou
-[4, 0, 6, 0]
+[3, 4, 0, 3]
 DEMANGE
 Martin
-[0, 7, 2, 1]
+[2, 1, 6, 1]
 DIAZ
 Gwenn
-[2, 5, 3, 0]
+[3, 0, 3, 4]
 DRIOUCHI
 Mohamed
-[4, 1, 5, 0]
+[2, 6, 1, 1]
 DUMONT
 Aline
-[3, 0, 4, 3]
+[4, 2, 3, 1]
 EDELSTEIN
 William
-[6, 2, 2, 0]
+[3, 4, 1, 2]
 EL FAHSSI
 Hicham
-[1, 7, 2, 0]
+[2, 3, 4, 1]
 EL HABRIRI
 Samy
-[5, 3, 1, 1]
+[5, 1, 3, 1]
 EL KASSOUF
 Simon
-[3, 3, 4, 0]
+[3, 1, 5, 1]
 FABRE
 Alexis
-[0, 4, 6, 0]
+[4, 0, 6, 0]
 FALFERI
 Angelo
-[5, 1, 3, 1]
+[3, 3, 2, 2]
 FAUTSCH          
 Mathis
-[2, 4, 0, 4]
+[1, 4, 4, 1]
 FERRAT
 Jibril
-[3, 3, 0, 4]
+[5, 0, 3, 2]
 FUSELIER
 Jules
-[1, 6, 3, 0]
+[4, 4, 0, 2]
 GHEUX
 Theo
-[4, 2, 4, 0]
+[2, 3, 3, 2]
 GIUSIANO
 Eloise
-[3, 3, 1, 3]
+[1, 5, 2, 2]
 GRIGUER
 Nathan
-[5, 0, 3, 2]
+[3, 6, 0, 1]
 GUDENSCHWAGER
 Oliver
-[6, 0, 2, 2]
+[2, 1, 7, 0]
 GUL
 Furkan
-[3, 4, 2, 1]
+[4, 3, 2, 1]
 GUZELBABA
 Imran
-[1, 3, 6, 0]
+[0, 6, 2, 2]
 HADDAD
 Mohamed-Amine
-[3, 4, 1, 2]
+[3, 2, 1, 4]
 HELALI
 Amin
-[2, 2, 5, 1]
+[1, 5, 3, 1]
 HENG
 Hugo
-[3, 2, 3, 2]
+[2, 4, 3, 1]
 HERNANDEZ
 Loic
-[4, 4, 1, 1]
+[5, 1, 4, 0]
 HU
 Swan
-[6, 3, 1, 0]
+[3, 0, 6, 1]
 JACOB
 Alexandre
-[1, 5, 4, 0]
+[1, 5, 3, 1]
 KAMARA
 Demba
-[2, 3, 5, 0]
+[2, 4, 1, 3]
 KAMARZINE
 Aurelien
-[3, 0, 6, 1]
+[5, 0, 3, 2]
 KOLIAI
 Hamza
-[0, 4, 4, 2]
+[3, 4, 0, 3]
 KUROPATWA-BUTTE  
 Adam
-[7, 1, 0, 2]
+[2, 3, 2, 3]
 LACORRE
 Axel
-[3, 0, 4, 3]
+[4, 1, 3, 2]
 LAURIOL-TORCQ
 Mathis
-[5, 4, 0, 1]
+[6, 1, 2, 1]
 LE DENMAT
 Pierre
-[2, 6, 1, 1]
+[1, 7, 1, 1]
 LEPAPE
 Lucas
-[4, 3, 2, 1]
+[0, 4, 6, 0]
 MAILHE      
 Gustin
-[5, 0, 5, 0]
+[2, 2, 4, 2]
 MARCHITTO
 Ilian
-[1, 6, 3, 0]
+[4, 2, 3, 1]
 MARCUS
 William
-[4, 1, 3, 2]
+[5, 3, 0, 2]
 MEFTAHI
 Mohamed
-[3, 7, 0, 0]
+[2, 3, 4, 1]
 MEGNOUCHE
 Riad
-[0, 3, 7, 0]
+[1, 6, 2, 1]
 MEJEAN
 Oriane
-[2, 4, 4, 0]
+[4, 1, 4, 1]
 MEKIDICHE         
 Idris
-[5, 1, 4, 0]
+[3, 2, 5, 0]
 NAHI
 Amine
-[3, 2, 5, 0]
+[4, 2, 1, 3]
 NEIRA
 Leandro
-[1, 8, 0, 1]
+[0, 4, 5, 1]
 NEPOTU
 Gheorghe
-[4, 0, 4, 2]
+[3, 3, 1, 3]
 NGOM
 Magueye
-[3, 3, 4, 0]
+[2, 6, 1, 1]
 NOIRET
 Maxime
-[5, 2, 2, 1]
+[1, 5, 4, 0]
 ORLANDI
 Lenny
-[6, 0, 4, 0]
+[2, 3, 5, 0]
 PANAIVA
 Jeremy
-[3, 3, 0, 4]
+[4, 2, 2, 2]
 PALOT
 Thomas
-[2, 4, 3, 1]
+[1, 7, 1, 1]
 PIBOULEAU
 Jean-Baptiste
-[0, 6, 2, 2]
+[5, 3, 2, 0]
 POGHOSSIAN
 Mariam
-[5, 2, 0, 3]
+[0, 4, 5, 1]
 QUILLIEC
 Matisse
-[1, 7, 1, 1]
+[3, 2, 3, 2]
 RADJOU
 Dinesh
-[3, 2, 3, 2]
+[1, 4, 4, 1]
 RAPANAKIS-BOURG
 Marius
-[4, 1, 3, 2]
+[2, 5, 3, 0]
 RATIANANAHARY
 Karmen
-[3, 5, 0, 2]
+[6, 0, 1, 3]
 REGNIER
 Vassili
-[4, 3, 2, 1]
+[5, 0, 4, 1]
 RIBBE 
 Jules
-[2, 0, 7, 1]
+[2, 6, 1, 1]
 RINALDI
 Antoine
-[5, 4, 1, 0]
+[3, 1, 6, 0]
 RIVA KARAKA ABDEREMANE
 Imric
-[2, 5, 3, 0]
+[2, 3, 4, 1]
 ROFFIDAL
 Ambre
-[1, 3, 6, 0]
+[5, 2, 1, 2]
 ROMBI           
 Matis
-[4, 2, 3, 1]
+[3, 4, 1, 2]
 SAADI
 Ismail
-[2, 2, 4, 2]
+[1, 5, 3, 1]
 SANTOS JORGE
 Francisco
-[5, 0, 5, 0]
+[2, 3, 3, 2]
 SENE
 Pablo
-[3, 3, 4, 0]
+[1, 6, 2, 1]
 SISE
 Aboubakar
-[1, 6, 1, 2]
+[4, 2, 3, 1]
 STEFANOVITCH
 Ilann
-[4, 0, 4, 2]
+[3, 4, 2, 1]
 TAHA CHAOUI
 Amir
-[3, 7, 0, 0]
+[5, 0, 5, 0]
 TORCHIN
 Maxence
-[2, 4, 3, 1]
+[2, 3, 2, 3]
 TORO
 Esteban
-[0, 6, 2, 2]
+[1, 4, 4, 1]
 TRAIKIA
 Rayane
-[5, 3, 1, 1]
+[2, 5, 2, 1]
 UYSUN
 Ali
-[4, 3, 2, 1]
+[3, 1, 5, 1]
 VALETTE
 Lilian
-[6, 0, 4, 0]
+[4, 2, 4, 0]
 WATRIPONT
 Jeremy 
-[2, 3, 4, 1]
+[1, 3, 5, 1]
 ZEGGANE 
 Sofien
-[5, 2, 1, 2]
+[3, 2, 4, 1]
 
