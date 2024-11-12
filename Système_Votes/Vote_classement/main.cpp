@@ -56,13 +56,13 @@ vector<int> litListe (){
 
 
 
-void affichVectString (const vector<string> & v){
+void afficheVectString (const vector<string> & v){
     for (const string & val : v)
         cout << val << '\t';
     cout << endl;
 }
 
-void affichVectInt (const vector<int> & v){
+void afficheVectInt (const vector<int> & v){
     for (const int & val : v)
         cout << val << ' ';
     cout << endl;
@@ -76,7 +76,7 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
     for (const auto & i : classement) {
         int premiercandidat = i[0] - 1;
         votesPremierePosition[premiercandidat]++;
-        //affichVectInt(votesPremierePosition);
+        //afficheVectInt(votesPremierePosition);
     }
     size_t i = 0;
     while (i< votesPremierePosition.size()){
@@ -89,7 +89,7 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
     for (const auto & i : classement){
         int deuxiemecandidat = i[1] - 1;
         votesDeuxiemePosition[deuxiemecandidat]++;
-        //affichVectInt(votesDeuxiemePosition);
+        //afficheVectInt(votesDeuxiemePosition);
     }
     i = 0;
     while (i< votesDeuxiemePosition.size()){
@@ -102,7 +102,7 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
     for (const auto& i : classement){
         int troisiemecandidat = i [2]-1;
         votesTroisiemePosition[troisiemecandidat]++;
-        //affichVectInt(votesTroisiemePosition);
+        //afficheVectInt(votesTroisiemePosition);
     }
     i=0;
     while (i < votesTroisiemePosition.size()){
@@ -115,13 +115,13 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
     for (const auto & i : classement){
         int quatriemecandidat = i[3]-1;
         votesQuatriemePosition[quatriemecandidat]++;
-        //affichVectInt(votesQuatriemePosition);
+        //afficheVectInt(votesQuatriemePosition);
     }
 
-    // affichVectInt(votesPremierePosition);
-    // affichVectInt(votesDeuxiemePosition);
-    // affichVectInt(votesTroisiemePosition);
-    // affichVectInt(votesQuatriemePosition);
+    // afficheVectInt(votesPremierePosition);
+    // afficheVectInt(votesDeuxiemePosition);
+    // afficheVectInt(votesTroisiemePosition);
+    // afficheVectInt(votesQuatriemePosition);
 
 
     vector<int> votesBorda(vCandidat.size(),0);
@@ -142,11 +142,11 @@ struct participant {
 
 
 
-void affichVectParticipants (const vector<participant> & vPart){
+void afficheVectParticipants (const vector<participant> & vPart){
     for (const participant & part : vPart){
         cout << part.nom << endl;
         cout << part.prenom << endl;
-        affichVectInt(part.classement);
+        afficheVectInt(part.classement);
     }
 }
 
@@ -159,7 +159,7 @@ int main()
     for (unsigned i (0); i < nbrCandidat; ++i)
         vCandidat.push_back(litUneString());
 
-    //affichVectString (vCandidat);
+    //afficheVectString (vCandidat);
 
     vector<participant> vParticipant;
     size_t votants = 116;
@@ -170,10 +170,10 @@ int main()
 
         vParticipant.push_back(participant{nom, prenom, classement});
 
-        //affichVectInt(classement);
+        //afficheVectInt(classement);
     }
 
-    //affichVectParticipants(vParticipant);
+    //afficheVectParticipants(vParticipant);
     vector<vector<int>> classementParticipants;
 
     for (const auto& part : vParticipant) {

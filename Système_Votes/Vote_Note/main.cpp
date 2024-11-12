@@ -22,13 +22,13 @@ int litUnEntier (){
     return stoi(uneChaine);
 }
 
-void affichVectInt (const vector<int> & v){
+void afficheVectInt (const vector<int> & v){
     for (const int & val : v)
         cout << val << ' ';
     cout << endl;
 }
 
-void affichVectFloat(const vector<float>& vec) {
+void afficheVectFloat(const vector<float>& vec) {
     for (size_t i = 0; i < vec.size(); ++i) {
         cout << vec[i] << " ";  // Affiche chaque élément suivi d'un espace
     }
@@ -42,7 +42,7 @@ vector<float> election (const vector<int> & NoteParticipant, const vector<int> &
         //cout << NoteParticipant[i] << endl;
         CompteurNote[val]+=static_cast<float>(NoteParticipant[i]);
     }
-    //affichVectInt(CompteurNote);
+    //afficheVectInt(CompteurNote);
     for (size_t i(0); i < CompteurNote.size(); ++i){
         CompteurNote[i]=CompteurNote[i]/29;
     }
@@ -59,13 +59,13 @@ struct participant {
 
 
 
-void affichVectString (const vector<string> & v){
+void afficheVectString (const vector<string> & v){
     for (const string & val : v)
         cout << val << '\t';
     cout << endl;
 }
 
-void affichVectParticipants (const vector<participant> & vPart){
+void afficheVectParticipants (const vector<participant> & vPart){
     for (const participant & part : vPart){
         cout << part.nom << endl;
         cout << part.prenom << endl;
@@ -80,7 +80,7 @@ int main()
     vector <string> vCandidat;
     for (unsigned i (0); i < 4; ++i)
         vCandidat.push_back(litUneString());
-    //affichVectString (vCandidat);
+    //afficheVectString (vCandidat);
 
     vector<participant> vParticipant;
 
@@ -101,12 +101,12 @@ int main()
     for (const auto& part : vParticipant)
         CandidatParticipant.push_back(part.candidat);
 
-    //affichVectInt(NoteParticipant);
-    //affichVectInt(CandidatParticipant);
+    //afficheVectInt(NoteParticipant);
+    //afficheVectInt(CandidatParticipant);
     //[4,5,4,1,10,2]
     vector<float> listeelection;
     listeelection=election(NoteParticipant,CandidatParticipant);
-    //affichVectFloat(listeelection);
+    //afficheVectFloat(listeelection);
 
     float max = listeelection[0];
     int max_indice = 0;

@@ -56,7 +56,7 @@ struct participant {
 };
 
 
-void affichVectInt (const vector<int> & v){
+void afficheVectInt (const vector<int> & v){
     for (const int & val : v)
         cout << val << ' ';
     cout << endl;
@@ -118,17 +118,17 @@ vector<int> election2etour(const vector<vector<int>>& classement){
     return Vote2eDecompte;
 }
 
-void affichVectString (const vector<string> & v){
+void afficheVectString (const vector<string> & v){
     for (const string & val : v)
         cout << val << '\t';
     cout << endl;
 }
 
-void affichVectParticipants (const vector<participant> & vPart){
+void afficheVectParticipants (const vector<participant> & vPart){
     for (const participant & part : vPart){
         cout << part.nom << endl;
         cout << part.prenom << endl;
-        affichVectInt(part.classement);
+        afficheVectInt(part.classement);
     }
 }
 
@@ -137,7 +137,7 @@ int main()
     vector <string> vCandidat;
     for (unsigned i (0); i < 4; ++i)
         vCandidat.push_back(litUneString());
-    //affichVectString (vCandidat);
+    //afficheVectString (vCandidat);
 
     vector<participant> vParticipant;
 
@@ -183,7 +183,7 @@ int main()
             cout << "Le candidat " << vCandidat[i] << " a obtenu " << listeelection[i] << " votes" << endl;
         }
 
-        //affichVectInt(listeelection);
+        //afficheVectInt(listeelection);
         int max = listeelection[0];
         for (size_t j(0); j < listeelection.size(); ++j){
             if (max < listeelection[j]){
