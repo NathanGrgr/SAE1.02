@@ -111,7 +111,8 @@ int main()
     float max = listeelection[0];
     int max_indice = 0;
 
-    for (size_t i = 1; i < listeelection.size(); ++i) {
+    for (size_t i = 0; i < listeelection.size(); ++i) {
+        cout << "Le candidat " << vCandidat[i] << " a obtenu une note de " << listeelection[i] << " sur 10" << endl;
         if (listeelection[i] > max) {
             max = listeelection[i];
             max_indice = i;
