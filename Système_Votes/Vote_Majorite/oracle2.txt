@@ -1,0 +1,12 @@
+Début du 1er tour : 
+Le candidat Mangue a obtenu 29 votes
+Le candidat Choco a obtenu 31 votes
+Le candidat Banane a obtenu 28 votes
+Le candidat Fraises a obtenu 28 votes
+Aucun candidat n'a gagné à la majorité
+Debut du 2e tour : 
+Le candidat Mangue a obtenu 27 votes
+Le candidat Choco a obtenu 27 votes
+Le candidat Banane a obtenu 29 votes
+Le candidat Fraises a obtenu 33 votes
+Le candidat Fraises est élu avec 33 voies au 2e tour sur un total de 116 voies !

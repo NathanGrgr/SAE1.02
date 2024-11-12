@@ -173,7 +173,7 @@ int main()
         }
     }
     else{
-        cout << "Aucun candidat n'a gagné à la majorité" << endl;
+        cout << "Aucun candidat n'a gagné à la majorité absolue" << endl;
         cout << "Debut du 2e tour : " << endl;
         listeelection=election2etour(classementParticipants);
 
@@ -185,13 +185,13 @@ int main()
 
         //affichVectInt(listeelection);
         int max = listeelection[0];
-        for (int j(0); j < listeelection.size(); ++j){
+        for (size_t j(0); j < listeelection.size(); ++j){
             if (max < listeelection[j]){
                 max=listeelection[j];
                 max_indice=j;
             }
         }
-        cout << "Le candidat " << vCandidat[max_indice] << " est élu avec " << max << " voies au 2er tour sur un total de " << votants << " voies !" << endl;
+        cout << "Le candidat " << vCandidat[max_indice] << " est élu avec " << max << " voies au 2e tour sur un total de " << votants << " voies !" << endl;
         return 0;
         }
 
