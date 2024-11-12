@@ -79,7 +79,7 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
         //affichVectInt(votesPremierePosition);
     }
     size_t i = 0;
-    while (i< votesPremierePosition.size()-1){
+    while (i< votesPremierePosition.size()){
         votesPremierePosition[i]=votesPremierePosition[i]*4;
         i++;
     }
@@ -92,7 +92,7 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
         //affichVectInt(votesDeuxiemePosition);
     }
     i = 0;
-    while (i< votesDeuxiemePosition.size()-1){
+    while (i< votesDeuxiemePosition.size()){
         votesDeuxiemePosition[i]=votesDeuxiemePosition[i]*3;
         ++i;
     }
@@ -105,7 +105,7 @@ vector<int> election(const vector<vector<int>>& classement,const vector <string>
         //affichVectInt(votesTroisiemePosition);
     }
     i=0;
-    while ( i < votesTroisiemePosition.size()-1){
+    while (i < votesTroisiemePosition.size()){
         votesTroisiemePosition[i]=votesTroisiemePosition[i]*2;
         ++i;
     }
@@ -196,7 +196,10 @@ int main()
         }
     }
 
-    cout << "Le candidat " << vCandidat[max_indice] << " est élu avec " << max << " points sur un total de " << votants << " voies !" << endl;
+    int total_points = 0;
+    for (const auto& points : listeelection) { total_points += points; }
+    cout << "Le candidat " << vCandidat[max_indice] << " est élu avec " << max << " points sur un total de " << total_points << " points !" << endl;
+
 
     return 0;
 }

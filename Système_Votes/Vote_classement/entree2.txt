@@ -2,7 +2,7 @@
 Mangue
 Choco
 Banane
-Fraises  
+Fraises
 // voila la liste des joueurs  
 // et encore un autre commentaire  
 AROUSSI BENTATA  
