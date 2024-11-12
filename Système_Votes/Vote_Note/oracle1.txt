@@ -1,0 +1,5 @@
+Le candidat Choco a obtenu une note de 4.93103 sur 10
+Le candidat Banane a obtenu une note de 4.48276 sur 10
+Le candidat Mangue a obtenu une note de 4.44828 sur 10
+Le candidat Fraises a obtenu une note de 4.75862 sur 10
+Le candidat Choco est élu avec un score de 4.93103 sur 10 avec un effectif de 116 voies !

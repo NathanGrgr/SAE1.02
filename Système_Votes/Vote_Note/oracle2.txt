@@ -1,0 +1,5 @@
+Le candidat Mangue a obtenu une note de 5.82759 sur 10
+Le candidat Choco a obtenu une note de 4.58621 sur 10
+Le candidat Banane a obtenu une note de 4.82759 sur 10
+Le candidat Fraises a obtenu une note de 4.31034 sur 10
+Le candidat Mangue est élu avec un score de 5.82759 sur 10 avec un effectif de 116 voies !
