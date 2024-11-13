@@ -4,12 +4,15 @@
  * Candidat peut gagner au 1er tour si majorité
  */
 
-
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
+/**
+ * Lit une chaîne depuis l'entrée standard en ignorant les lignes qui commencent par "//".
+ * @return Une chaîne lue depuis l'entrée.
+ */
 string litUneString (){
     string uneChaine;
     while (true){
@@ -19,6 +22,11 @@ string litUneString (){
     return uneChaine;
 }
 
+/**
+ * Convertit une représentation de chaîne de caractères d'un vecteur d'entiers en un vrai vecteur d'entiers.
+ * @param chaine La représentation de chaîne du vecteur.
+ * @return Un vecteur d'entiers.
+ */
 vector<int> convertstrintovector(const string& chaine){
     string newchaine = chaine.substr(1, chaine.size()-2);
     vector<int> vector;
@@ -36,7 +44,10 @@ vector<int> convertstrintovector(const string& chaine){
     return vector;
 }
 
-
+/**
+ * Lit un classement depuis l'entrée standard et le convertit en un vecteur d'entiers.
+ * @return Un vecteur d'entiers représentant le classement.
+ */
 vector<int> litClassement (){
     string uneChaine;
     vector<int> liste;
@@ -49,21 +60,31 @@ vector<int> litClassement (){
     return liste;
 }
 
+/**
+ * Structure représentant un participant.
+ */
 struct participant {
-    string nom;
-    string prenom;
-    vector<int> classement;
+    string nom; ///< Le nom de famille du participant.
+    string prenom; ///< Le prénom du participant.
+    vector<int> classement; ///< Le classement du participant.
 };
 
-
+/**
+ * Affiche le contenu d'un vecteur d'entiers.
+ * @param v Le vecteur à afficher.
+ */
 void afficheVectInt (const vector<int> & v){
     for (const int & val : v)
         cout << val << ' ';
     cout << endl;
 }
 
-
-
+/**
+ * Procède au premier tour de l'élection.
+ * @param classement Le classement de tous les participants.
+ * @param vCandidat La liste des candidats.
+ * @return Un vecteur du nombre de votes pour chaque candidat.
+ */
 vector<int> election(const vector<vector<int>>& classement,vector<string> vCandidat){
     size_t votants = classement.size();
     int seuil = votants/2;
@@ -95,8 +116,11 @@ vector<int> election(const vector<vector<int>>& classement,vector<string> vCandi
     return VoteDecompte;
 }
 
-
-
+/**
+ * Procède au second tour de l'élection.
+ * @param classement Le classement de tous les participants.
+ * @return Un vecteur du nombre de votes pour chaque candidat au second tour.
+ */
 vector<int> election2etour(const vector<vector<int>>& classement){
     size_t votants = classement.size();
     vector<int> Vote2eDecompte(4,0);
@@ -118,12 +142,20 @@ vector<int> election2etour(const vector<vector<int>>& classement){
     return Vote2eDecompte;
 }
 
+/**
+ * Affiche le contenu d'un vecteur de chaînes.
+ * @param v Le vecteur à afficher.
+ */
 void afficheVectString (const vector<string> & v){
     for (const string & val : v)
         cout << val << '\t';
     cout << endl;
 }
 
+/**
+ * Affiche les détails de tous les participants.
+ * @param vPart Le vecteur de participants à afficher.
+ */
 void afficheVectParticipants (const vector<participant> & vPart){
     for (const participant & part : vPart){
         cout << part.nom << endl;
@@ -132,6 +164,10 @@ void afficheVectParticipants (const vector<participant> & vPart){
     }
 }
 
+/**
+ * Fonction principale pour procéder à l'ensemble du processus électoral.
+ * @return 0 si le programme s'exécute avec succès.
+ */
 int main()
 {
     vector <string> vCandidat;
@@ -162,7 +198,6 @@ int main()
     if (listeelection.size()!=0){
         int max = listeelection[0];
 
-
         for (size_t i = 1; i < listeelection.size(); ++i) {
             if (listeelection[i] > max) {
                 max = listeelection[i];
@@ -176,8 +211,6 @@ int main()
         cout << "Aucun candidat n'a gagné à la majorité absolue" << endl;
         cout << "Debut du 2e tour : " << endl;
         listeelection=election2etour(classementParticipants);
-
-
 
         for (size_t i = 0; i < listeelection.size(); ++i){
             cout << "Le candidat " << vCandidat[i] << " a obtenu " << listeelection[i] << " votes" << endl;
@@ -193,6 +226,5 @@ int main()
         }
         cout << "Le candidat " << vCandidat[max_indice] << " est élu avec " << max << " voies au 2e tour sur un total de " << votants << " voies !" << endl;
         return 0;
-        }
-
     }
+}
